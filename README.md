@@ -73,7 +73,7 @@ $ clip < ~/.ssh/id_rsa.pub
 # Copies the contents of the _ id_rsa.pub _ file to your clipboard
 ```
 - In the upper-right corner of any page, click your profile photo, then click Settings.
-<img src="https://github.com/mk-hack-18/Data-Science/assets/68790682/be7964a2-7c64-443b-9da2-c7ea0f403408" alt="Alt text" width="300"/>
+<img src="https://github.com/mk-hack-18/Data-Science/assets/68790682/be7964a2-7c64-443b-9da2-c7ea0f403408" alt="Alt text" width="200"/>
 
 - In the "Access" section of the sidebar, click  SSH and GPG keys.
 
