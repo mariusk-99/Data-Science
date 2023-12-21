@@ -89,3 +89,4 @@ $ clip < ~/.ssh/id_rsa.pub
 
 - If prompted, confirm access to your account on GitHub.
 
+### Testing git commit
