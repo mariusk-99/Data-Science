@@ -42,6 +42,7 @@ _
 Tip: If you receive an error that ~/.ssh doesn't exist, you do not have an existing SSH key pair in the default location. You can create a new SSH key pair in the next step.
 
 6. [Generate a new SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
 - Open Git Bash.
 
 - Paste the text below, replacing the email used in the example with your GitHub email address.
@@ -65,8 +66,8 @@ At the prompt, type a secure passphrase. For more information, see "Working with
 
 7. [Adding a new SSH key to your GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
-Copy the SSH public key to your clipboard.
-- Inside bash:
+- Copy the SSH public key to your clipboard.
+Inside bash:
 ```
 $ clip < ~/.ssh/id_rsa.pub
 # Copies the contents of the _ id_rsa.pub _ file to your clipboard
