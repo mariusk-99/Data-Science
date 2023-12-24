@@ -89,9 +89,86 @@ $ clip < ~/.ssh/id_rsa.pub
 
 - If prompted, confirm access to your account on GitHub.
 
+### Cloning a repository from GitHub
+
+The path starting with _git@github_ can be found inside github under clone with SSH.
+
+```
+cd c:\PathToDirectory
+
+$ git clone git@github.com:mk-hack-18/Data-Science.git
+
+```
+Checks for any changes to the repository
+```
+$ git status
+```
+
+When changes have been made but not commited
+```
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+
+To track a file in the repo
+
+```
+$ git add FILENAME
+```
+
+To track all files in the repo
+
+```
+$ git add .
+```
+
+To commit
+
+```
+$ git commit -m "Added index.html" -m "some description"
+```
+
+To push changes to github
+
+```
+git push origin main
+```
+
+### Adding a local repository to GitHub
+
+1. Create a new folder outside the current repository `demo-repo`
+
+2. Move to the new directory `$ cd ../demo-repo`
+
+3. Initialise Git Repository `$ git init`
+
+4. Track files `git add .`
+
+5. Commit changes `$ git commit -m "Created README.md" -m "some description"
+
+6. Create a new repository on GitHub named `demo-repo`, then copy the SSH link: git@github.com:mk-hack-18/demo-repo2.git
+
+7. Add reference to the remote repo on GitHub
+```
+$ git remote add origin git@github.com:mk-hack-18/demo-repo2.git
+```
+
+8. Push repo to GitHub
+
+```
+$ git push origin master
+```
+
+### Getting out of Vim
+
 ### Using Git 
 
 > If you get into VIM by accident, here's how to get out.
 > 1. Type commit message
 > 2. Press `Esc`
 > 3. To save the message and commit: `:wq`
+
