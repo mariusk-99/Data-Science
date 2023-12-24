@@ -89,4 +89,9 @@ $ clip < ~/.ssh/id_rsa.pub
 
 - If prompted, confirm access to your account on GitHub.
 
-### Testing git commit
+### Using Git 
+
+> If you get into VIM by accident, here's how to get out.
+> 1. Type commit message
+> 2. Press `Esc`
+> 3. To save the message and commit: `:wq`
