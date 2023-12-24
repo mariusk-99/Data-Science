@@ -163,12 +163,12 @@ $ git remote add origin git@github.com:mk-hack-18/demo-repo2.git
 $ git push origin master
 ```
 
-### Git Branching
+### Getting out of Vim
 
+### Using Git 
 
-
-
-
-
-
+> If you get into VIM by accident, here's how to get out.
+> 1. Type commit message
+> 2. Press `Esc`
+> 3. To save the message and commit: `:wq`
 
