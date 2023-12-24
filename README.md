@@ -165,8 +165,6 @@ $ git push origin master
 
 ### Getting out of Vim
 
-### Using Git 
-
 > If you get into VIM by accident, here's how to get out.
 > 1. Type commit message
 > 2. Press `Esc`
